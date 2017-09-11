@@ -1,30 +1,10 @@
--- phpMyAdmin SQL Dump
--- version 3.5.2.2
--- http://www.phpmyadmin.net
---
--- Host: 127.0.0.1
--- Generation Time: Feb 02, 2014 at 09:27 PM
--- Server version: 5.5.27
--- PHP Version: 5.4.7
+
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
 
---
--- Database: `search`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `sites`
---
 
 CREATE TABLE IF NOT EXISTS `sites` (
   `site_id` int(10) NOT NULL AUTO_INCREMENT,
@@ -36,9 +16,7 @@ CREATE TABLE IF NOT EXISTS `sites` (
   PRIMARY KEY (`site_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=13 ;
 
---
--- Dumping data for table `sites`
---
+//inserting self made values
 
 INSERT INTO `sites` (`site_id`, `site_title`, `site_link`, `site_keywords`, `site_desc`, `site_image`) VALUES
 (2, '100 Free SEO Tools – online SEO tools', 'http://smallseotools.com/', 'SEO tools, SEO tips, SEO tutorials', '100 Free SEO tools. Lets use and feeling. Unique content checker, unique content rewriter, keyword position, google pingler, search engine pingler.', 'SEO course.jpg'),
@@ -52,7 +30,3 @@ INSERT INTO `sites` (`site_id`, `site_title`, `site_link`, `site_keywords`, `sit
 (10, 'the best search engine is google', 'http://www.google.com', 'Best search engines, search engines, top engines ', 'Google is the best search engine in the world which is a very popular all over the world. ', 'google-pagerank-2014.jpg'),
 (11, 'Bing is the second search engine in the world', 'http://www.bing.com', 'Search engines, top engines, best search engines', 'Bing is the second search engine in the world which is mostly used by the users located in the United states. ', 'blogger seo.jpg'),
 (12, 'Yahoo is the third search engine in the world', 'http://www.yahoo.com', 'Best search engines, search engines, top engines ', 'yahoo is the third popular search engine in the world which is mostly used by the users located in Japan. ', 'put-your-best-smile-forward-1.jpg');
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
