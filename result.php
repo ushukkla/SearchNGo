@@ -29,7 +29,7 @@
 	
 	$get_value = $_GET['user_query'];
 	
-	if($get_value==''){
+	if($get_value == " "){
 	
 	echo "<center><b>Please go back, and write something in the search box!</b></center>";
 	exit();
@@ -58,7 +58,7 @@
 		<h2>$site_title</h2>
 		<a href='$site_link' target='_blank'>$site_link</a>
 		<p align='justify'>$site_desc</p> 
-		<img src='images/$site_image' width='100' height='100' />
+		<img src='images/$site_image' width='90' height='90' />
 		
 		</div>";
 
