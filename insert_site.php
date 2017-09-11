@@ -8,7 +8,7 @@
 	
 	<form action="insert_site.php" method="post" enctype="multipart/form-data"> 
 		
-		<table bgcolor="orange" width="500" border="2" cellspacing="2" align="center">
+		<table bgcolor="orange" width="500" border="4" cellspacing="2" align="center">
 			
 			<tr>
 				<td colspan="5" align="center"><h2>Inserting new website:</h2></td>
